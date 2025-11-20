@@ -1,0 +1,23 @@
+{
+  "name": "tsci-split-kbd",
+  "module": "index.tsx",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.6",
+    "tscircuit": "^0.0.925"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "tsci dev",
+    "start": "tsci dev"
+  },
+  "dependencies": {
+    "@tsci/Heinrich-XIAO.Key": "^0.0.4",
+    "@tsci/seveibar.xiao-esp32c6": "^0.0.1",
+    "@tscircuit/common": "0.0.27"
+  }
+}
